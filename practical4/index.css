@@ -1,0 +1,32 @@
+/* Center everything on the page */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#details1 {
+    background-color: green;
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+#details1 a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#details1 a:hover {
+    text-decoration: underline;
+}
